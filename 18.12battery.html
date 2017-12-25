@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        div {
+            float:left;
+        }
+      .weather {
+          position:absolute;
+          left:50%;
+          margin-left:-150px;
+      }
+        
+        .date {
+            width:100px;
+           
+            background:#3081a5;
+            text-align:center;
+            color:white;
+            font-weight:bold;
+            font-size:20px;
+       }
+        .date td {
+            height:30px;
+        }
+        .temperature {
+            text-align:center;
+            font-size:20px;
+        }
+        .weather1 {
+            text-align:center;
+            
+        }
+        .weather1 div {
+            padding:0;
+            margin-right:4px;
+        }
+       .weather1 div:hover {
+           box-shadow:0px 2px 3px 3px;
+       }
+        .pp {
+            height:30px;
+            background:#4b54b5;
+            text-align:center;
+            
+            font-weight:bold;
+            color:white;
+            
+        }
+        p {
+            margin:0;
+            font-size: 20px;
+        }
+    </style>
+ 
+</head>
+<body>
+    <script async src="12.17js.js">
+    </script>
+    <table class="weather">
+        <tr class="date">
+            <td>31.08</td>
+            <td>01.09</td>
+            <td>02.09</td>
+        </tr>
+        <tr class="image">
+            <td> <img src="images/sun.jpg" /></td>
+            <td> <img src="images/snow.jpg" /></td>
+            <td> <img src="images/blizzard.jpg" /></td>
+        </tr>
+        
+        <tr class="temperature">
+            <td>+20</td>
+            <td>-3</td>
+            <td>-10</td>
+        </tr>
+    </table>
+    
+   
+
+    <div class="weather1">
+        <div class="sun1">
+            <p class="pp">31.08</p>
+            <img src="images/sun.jpg" />
+            <p>+20<sup>o</sup></p>
+        </div>
+        <div class="snow1">
+            <p class="pp">01.09</p>
+            <img src="images/snow.jpg" />
+            <p>-3<sup>o</sup></p>
+        </div>
+        <div class="sun1">
+            <p class="pp">02.09</p>
+            
+            <img src="images/blizzard.jpg" />
+            <p>-10<sup>o</sup></p>
+        </div>
+       
+    </div>
+    
+    <script async src="12.17js.js">
+    </script>
+  
+
+
+
+
+    
+</body>
+</html>
